@@ -1,0 +1,72 @@
+<html>
+
+<body>
+
+
+
+    <form onsubmit="handleRegistration(event)">
+        <h2>Registration Form</h2>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="phone">Phone:</label>
+        <input type="tel" id="phone" name="phone" required>
+
+        <label for="animalPreference">Preferred Animal (if any):</label>
+        <input type="text" id="animalPreference" name="animalPreference">
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="4"></textarea>
+        <button type="submit">Submit Registration</button>
+    </form>
+
+    <style>
+        form {
+            margin-top: 20px;
+            border-top: 1px solid #ccc;
+            padding-top: 20px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+        }
+
+        input,
+        textarea {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 16px;
+            box-sizing: border-box;
+        }
+
+        button {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+
+    <script>
+        function handleRegistration(event) {
+            // Prevent the form from submitting and refreshing the page
+            event.preventDefault();
+
+            // Perform registration logic here (e.g., send data to server)
+
+            // Show a pop-up message
+            alert('Registration completed');
+
+            // Redirect to the 'test.html' page
+            window.location.href = 'index.html';
+        }
+    </script>
+
+</body>
+
+</html>

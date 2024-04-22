@@ -1,0 +1,303 @@
+<html>
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adopting Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url(https://t4.ftcdn.net/jpg/02/16/30/71/360_F_216307157_uyUbdTRsPyK1HvuGgNEAESHZ4LS3lz4V.jpg);
+            background-size: cover;
+            /* Cover the entire viewport */
+            background-position: center;
+            /* Center the image */
+            background-repeat: no-repeat;
+            /* Do not repeat the image */
+            background-attachment: fixed;
+            /* Fixed background while scrolling */
+            margin: auto;
+            /* Remove default margin */
+            padding: auto;
+            /* Remove default padding */
+            font-family: Arial, sans-serif;
+            /* Specify a font family */
+
+        }
+
+        header {
+            background-color: bisque;
+            color: red;
+            text-align: center;
+            padding: 10px;
+            position: relative;
+        }
+
+        h1 {
+            margin: 0;
+        }
+
+        h2 {
+            color: #333;
+            background-color: brown;
+
+        }
+
+        main {
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 40px;
+            background-color: burlywood;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border: burlywood;
+        }
+
+        .gallery {
+            display: flex;
+            justify-content: space-around;
+            padding: 20px;
+        }
+
+        .gallery-item {
+            width: 200px;
+            height: 150px;
+            overflow: hidden;
+            position: relative;
+            margin: 10px;
+        }
+
+        .gallery-item img {
+            width: 100%;
+            height: auto;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .gallery-item:hover img {
+            transform: scale(1.1);
+        }
+
+        .message-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.5);
+            color: #fff;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            opacity: 0;
+            transition: opacity 0.3s ease-in-out;
+        }
+
+        .gallery-item:hover .message-overlay {
+            opacity: 1;
+        }
+
+        #login-btn {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            background-color: brown;
+            color: #fff;
+            padding: 5px 10px;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Welcome to Our Adopting Website</h1>
+        <button id="login-btn" onclick="redirectToLoginPage()">Log In</button>
+    </header>
+    <main>
+
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLuKHxAdBKMBOSxMqMbKZ4oGIDdrhIno25UK5D3sy9E6VztE1tM5WHGELtRR9pAmyBONk"
+            alt="Dog">
+        <br>
+        <h2><i>Dogs:</i></h2>
+        <br>
+
+        <p>
+            Dog, (Canis lupus familiaris), domestic mammal of the family Canidae (order Carnivora). It is a
+            subspecies of the gray wolf (Canis lupus) and is related to foxes and jackals. The dog is one of the two
+            most
+            ubiquitous and most popular domestic animals in the world (the cat is the other). For more than 12,000 years
+            it
+            has lived with humans as a hunting companion, protector, object of scorn or adoration, and friend.
+
+            The dog evolved from the gray wolf into more than 400 distinct breeds. Human beings have played a major role
+            in
+            creating dogs that fulfill distinct societal needs. Through the most rudimentary form of genetic
+            engineering,
+            dogs were bred to accentuate instincts that were evident from their earliest encounters with humans.
+            Although
+            details about the evolution of dogs are uncertain, the first dogs were hunters with keen senses of sight and
+            smell. Humans developed these instincts and created new breeds as need or desire arose.
+
+            Dogs are regarded differently in different parts of the world. Characteristics of loyalty, friendship,
+            protectiveness, and affection have earned dogs an important position in Western society, and in the United
+            States and Europe the care and feeding of dogs has become a multibillion-dollar business. Western
+            civilization
+            has given the relationship between human and dog great importance, but, in some of the developing nations
+            and in
+            many areas of Asia, dogs are not held in the same esteem. In some areas of the world, dogs are used as
+            guards or
+            beasts of burden or even for food, whereas in the United States and Europe dogs are protected and admired.
+            In
+            ancient Egypt during the days of the pharaohs, dogs were considered to be sacred.</p>
+
+        <br>
+        <br>
+        <br>
+        <br>
+        <img src="https://www.purina.ca/sites/default/files/styles/social_share_large/public/purina-kitten-separation-anxiety-500x300_0.png?itok=3hx-ymZB"
+            alt="Cat">
+        <br>
+        <h2><i>Cat,(Felis catus):</i></h2>
+        <br>
+
+        <p>domesticated member of the family Felidae, order Carnivora, and the smallest member of that
+            family. Like all felids, domestic cats are characterized by supple low-slung bodies, finely molded heads,
+            long
+            tails that aid in balance, and specialized teeth and claws that adapt them admirably to a life of active
+            hunting. Cats possess other features of their wild relatives in being basically carnivorous, remarkably
+            agile
+            and powerful, and finely coordinated in movement.
+
+            It is noteworthy that the ancestors of the other common household pet, the dog, were social animals that
+            lived
+            together in packs in which there was subordination to a leader, and the dog has readily transferred its
+            allegiance from pack leader to human master. The cat, however, has not yielded as readily to subjugation.
+            Consequently, the house cat is able to revert to complete self-reliance more quickly and more successfully
+            than
+            most domesticated dogs. For an account of the relationship of the family of cats to other carnivores, see
+            carnivore.</p>
+        <br>
+        <br>
+        <br>
+        <br>
+
+        <img src="https://cdn.mos.cms.futurecdn.net/aDrjRBLrayuq53z5m8S5zk-650-80.jpg.webp" alt="turtle">
+        <br>
+        <h2><i>Turtles:</i></h2>
+        <p>Turtles are reptiles with hard shells that protect them from predators. They are among the oldest and most
+            primitive groups of reptiles, having evolved millions of years ago. Turtles live all over the world in
+            almost every type of climate.
+
+            According to the Integrated Taxonomic Information System (ITIS), the turtle order, Testudines (or Chelonia),
+            splits into two suborders, Cryptodira and Pleurodira, and then further splits into 13 families, 75 genera
+            and more than 300 species.
+
+            "Turtle," "tortoise" and "terrapin" are often used interchangeably as synonyms, but there are distinct
+            differences between the types of chelonians, according to the San Diego Zoo:
+
+            Turtles spend most of their lives in water. They are adapted for aquatic life, with webbed feet or flippers
+            and a streamlined body. Sea turtles rarely leave the ocean, except to lay eggs in the sand. Freshwater
+            turtles live in ponds and lakes, and they climb out of the water onto logs or rocks to bask in the warm sun.
+            Tortoises are land animals. Their feet are round and stumpy, adapted for walking on land. They also dig
+            burrows with their strong forelimbs, and slip underground when the sun gets too hot.
+            Terrapins live on land and in water, usually in swamps, ponds, lakes and rivers.</p>
+        <br>
+        <br>
+        <br>
+        <br>
+        <img src="data:image/jpeg;base64,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"
+            alt="turtle">
+        <br>
+        <h2><i>Hamster fact file:</i></h2>
+        <p>There are several different breeds and varieties of hamster, varying in size and temperament.
+
+            Hamsters usually live for up to two years, although some may live for longer.
+
+            Here are some top hamster facts:
+
+            There are 24 species of hamster and they belong to the family Cricetidae. The Syrian, Russian Dwarf Campbell
+            and Roborovski breeds are the most popular for pets.
+            Hamsters enjoy exploring and use their whiskers to help them sense objects in their environment.
+            A hamster's teeth never stop growing and they have a 'self-sharpening' system where the incisors grind
+            against each other while gnawing, which wears the teeth down.
+            Hamsters are nocturnal, with large eyes and a retina dominated by rods - the part of the eye that can
+            function in lower light.
+            Not all hamsters are sociable - in the wild, Syrian hamster adults generally live on their own in their
+            burrows. Other species, such as the Russian dwarf, naturally live in groups.</p>
+        <br>
+        <br>
+        <br>
+        <br>
+
+        <h2><i>
+                <p>So the questions is now ARE YOU ---></p>
+            </i></h2>
+
+        <div class="gallery">
+            <div class="gallery-item">
+                <img src="https://img.freepik.com/premium-photo/freepik-image-photo-2023-white-background-isolated-wallpaper-texture-photo-image-2024_873925-217856.jpg"
+                    alt="Cat">
+                <a href="cat.html">
+                    <div class="message-overlay">Cat Person</div>
+                </a>
+            </div>
+            <div class="gallery-item">
+                <img src="https://media.istockphoto.com/id/942616490/photo/man-with-dog.jpg?s=170667a&w=0&k=20&c=vAe1gKaDnIjSKoczlh8Dal39GMdNRDZkQ0Hzqt-HFuw="
+                    alt="Dog">
+                <a href="dog.html">
+                    <div class="message-overlay">Dog Person</div>
+                </a>
+            </div>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <div class="gallery-item">
+                <img src="https://s.yimg.com/ny/api/res/1.2/TqmsQKY2rM5ScEBnEAd.UQ--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD04MDA-/https://media.zenfs.com/en/better_homes_gardens_articles_518/334df28146ef289110dc2a8434f658fe"
+                    alt="turtele">
+                <a href="turtels.html">
+                    <div class="message-overlay">Turtle Person</div>
+                </a>
+            </div>
+            <div class="gallery-item">
+                <img src="data:image/jpeg;base64,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"
+                    alt="hamester">
+                <a href="hamester.html">
+
+                    <div class="message-overlay">Hamster Person</div>
+                </a>
+            </div>
+
+            <!-- Add more gallery items as needed -->
+        </div>
+    </main>
+
+    <script>
+
+        function redirectToLoginPage() {
+            // Open the login page in a new tab or window
+            window.open('login.html', '_blank');
+        }
+
+        function handleRegistration(event) {
+            // Prevent the form from submitting and refreshing the page
+            event.preventDefault();
+
+            // Perform registration logic here (e.g., send data to server)
+
+            // Show a pop-up message
+            alert('Registration completed');
+
+            // Redirect back to the previous page (replace 'index.html' with your actual home page)
+            window.location.href = 'choose.html';
+        }
+    </script>
+
+
+</body>
+
+</html>

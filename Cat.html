@@ -1,0 +1,277 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animal Adoption Center (Cats section)</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url(https://t4.ftcdn.net/jpg/02/16/30/71/360_F_216307157_uyUbdTRsPyK1HvuGgNEAESHZ4LS3lz4V.jpg);
+            background-size: cover;
+            /* Cover the entire viewport */
+            background-position: center;
+            /* Center the image */
+            background-repeat: no-repeat;
+            /* Do not repeat the image */
+            background-attachment: fixed;
+            /* Fixed background while scrolling */
+            margin: auto;
+            /* Remove default margin */
+            padding: auto;
+            /* Remove default padding */
+            font-family: Arial, sans-serif;
+            /* Specify a font family */
+
+        }
+
+        header {
+            background-color: bisque;
+            color: red;
+            text-align: center;
+            padding: 10px;
+            position: relative;
+        }
+
+        h1 {
+            margin: 0;
+        }
+
+        main {
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 40px;
+            background-color: burlywood;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border: burlywood;
+        }
+
+        #login-btn {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            background-color: brown;
+            color: #fff;
+            padding: 5px 10px;
+            border: none;
+            cursor: pointer;
+        }
+
+        h2 {
+            font-family: 'Courier New', Courier, monospace;
+            color: #333;
+            background-color: brown;
+
+        }
+
+        p {
+            line-height: 1.6;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .adopted-animals {
+            margin-top: 20px;
+            padding-top: 20px;
+            border-top: 1px solid #ccc;
+        }
+
+        .adopted-animal {
+            margin-bottom: 20px;
+        }
+
+        .contact {
+            width: 400px;
+            margin: left;
+            padding: 30px;
+            background-color: burlywood;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border: burlywood;
+
+        }
+
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            padding: 20px;
+        }
+
+        .gallery-item {
+            width: 200px;
+            height: 250px;
+            overflow: hidden;
+            position: relative;
+            margin: 10px;
+        }
+
+        .gallery-item img {
+            width: 100%;
+            height: auto;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .gallery-item:hover img {
+            transform: scale(1.1);
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <header>
+        <h1>Animal Adoption Center</h1>
+        <button id="login-btn" onclick="redirectToLoginPage()">Log In</button>
+        <section class="purinaBanner-module--purinaBanner--958c7" aria-label="Powered by Purina">
+            <div class="purinaBanner-module--purinaBanner-header--d7c56"><a
+                    class="purinaBanner-module--purinaBanner-footer--0c7ff"
+                    href="https://www.petfinder.com/purina-cares-partnership/">
+                    <p>Learn more</span> <!-- -->about how Purina
+                        and Petfinder are making a difference together.</p>
+                </a>
+            </div>
+
+
+        </section>
+    </header>
+
+    <main>
+        <h2>Our Mission</h2>
+        <p>Welcome to the Animal Adoption Center, where we strive to find loving homes for animals in need. Our mission
+            is to
+            create a world where every animal has a safe and caring home.</p>
+
+        <h2>Available Cats</h2>
+        <p>Explore our gallery of adorable animals waiting for a forever home:</p>
+        <!-- Add images and information about available animals -->
+
+        <div class="gallery">
+            <div class="gallery-item">
+                <img src="https://images.pexels.com/photos/45201/kitty-cat-kitten-pet-45201.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+                    alt="Adopted Animal 1">
+            </div>
+            <div class="gallery-item">
+                <img src="https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/69331021/4/?bust=1697559773&width=560"
+                    alt="Adopted Animal 1">
+            </div>
+            <div class="gallery-item">
+                <img src="https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/69054180/1/?bust=1695825675&width=560"
+                    alt="Adopted Animal 1">
+            </div>
+            <div class="gallery-item">
+                <img src="https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/42067671/1/?bust=1683809935&width=560"
+                    alt="Adopted Animal 1">
+            </div>
+
+            <!-- Add more gallery items as needed -->
+        </div>
+
+
+
+
+
+
+
+
+
+        <h2>Why Adopt?</h2>
+        <p>Adopting a pet not only brings joy into your life but also provides a loving home for an animal in need. Here
+            are
+            some reasons to consider adoption:</p>
+        <ul>
+            <li>Save a life</li>
+            <li>Create a bond with a grateful companion</li>
+            <li>Support animal welfare</li>
+        </ul>
+
+        <div class="adopted-animals">
+            <h2>Adopted Animals</h2>
+
+            <div class="adopted-animal">
+                <img src="https://images.pexels.com/photos/45201/kitty-cat-kitten-pet-45201.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+                    alt="Adopted Animal 1">
+                <p>This is an adorable cat named Whiskers. Whiskers found a loving home and enjoys playing with toys and
+                    cuddling with the new family.</p>
+            </div>
+
+            <div class="adopted-animal">
+                <img src="https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/69331021/4/?bust=1697559773&width=560"
+                    alt="Adopted Animal 1">
+                <p>Meet Stewart
+                    Stewart is an adorable male tabby kitten who was found living all by himself running
+                    around a neighborhood in Cole Harbour.
+                    He was about 10 weeks old when we trapped him.
+                    He was very sick at first with upper respiratory infection and parasites.
+                    Now he is quite healthy and he has been tested for feline leukemia,
+                    vaccinated three times, neutered, microchipped and treated for all parasites.</p>
+            </div>
+
+            <div class="adopted-animal">
+                <img src="https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/69054180/1/?bust=1695825675&width=560"
+                    alt="Adopted Animal 1">
+                <p>Meet Autumn
+                    Our rescues mean a lot to the vet staff and DunRoamin' volunteers.
+                    We do everything we can to find the perfect homes for these pets,
+                    who are being given a second chance at a happy life.
+                    The application process requires pre-adoption applications, references, </p>
+            </div>
+
+            <div class="adopted-animal">
+                <img src="https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/42067671/1/?bust=1683809935&width=560"
+                    alt="Adopted Animal 1">
+                <p>Meet Splinter
+                    Splinter came to us on May 8, 2018 from Glassville where he'd been part of a colony of feral
+                    cats that was trying survive.
+                    Splinter was born about August 7, 2010, so was about eight years old.
+                    In his life he had sustained several wounds and injuries.
+                    Today he displayed a very badly infected ear.
+                    It was extremely infected and he needed help.
+                </p>
+            </div>
+
+            <!-- Add more adopted animal sections as needed -->
+        </div>
+
+
+    </main>
+
+
+
+    <script>
+
+        function redirectToLoginPage() {
+            // Open the login page in a new tab or window
+            window.open('login.html', '_blank');
+        }
+
+        function handleRegistration(event) {
+            // Prevent the form from submitting and refreshing the page
+            event.preventDefault();
+
+            // Perform registration logic here (e.g., send data to server)
+
+            // Show a pop-up message
+            alert('Registration completed');
+
+            // Redirect back to the previous page (replace 'index.html' with your actual home page)
+            window.location.href = 'Cat.html';
+        }
+    </script>
+
+
+    <div class="contact">
+        <h2>Contact Us</h2>
+        <p>If you are interested in adopting or have any questions, feel free to contact us:</p>
+        <p>Email: info@animaladoptioncenter.com</p>
+        <p>Phone: (123) 456-7890</p>
+    </div>
+
+</body>
+
+</html>
